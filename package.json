@@ -1,0 +1,23 @@
+{
+  "name": "atom-vlc",
+  "main": "./lib/atom-vlc",
+  "version": "0.1.0",
+  "description": "A bottom panel to control VLC media player from Atom",
+  "keywords": [
+    "vlc",
+    "music"
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-vlc:toggle"
+  },
+  "repository": "https://github.com/renatoalencar/atom-vlc",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "atom-space-pen-views": "^2.2.0",
+    "font-awesome": "^4.6.1"
+  }
+}

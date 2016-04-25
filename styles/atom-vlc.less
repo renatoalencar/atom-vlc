@@ -1,0 +1,36 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+@import "../node_modules/font-awesome/less/font-awesome.less";
+
+@fa-font-path: "atom://atom-vlc/node_modules/font-awesome/fonts";
+
+// override font-face to remove query strings
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('@{fa-font-path}/fontawesome-webfont.eot');
+  src: url('@{fa-font-path}/fontawesome-webfont.eot') format('embedded-opentype'),
+    url('@{fa-font-path}/fontawesome-webfont.woff2') format('woff2'),
+    url('@{fa-font-path}/fontawesome-webfont.woff') format('woff'),
+    url('@{fa-font-path}/fontawesome-webfont.ttf') format('truetype'),
+    url('@{fa-font-path}/fontawesome-webfont.svg?') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.atom-vlc {
+  button {
+    margin: 2px;
+  }
+
+  img {
+    width: 60px;
+  }
+  .info span {
+    font-weight: bold;
+    margin-left: 5px;
+  }
+}
