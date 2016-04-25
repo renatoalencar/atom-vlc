@@ -2,7 +2,7 @@
 
 A bottom panel to control VLC media player from Atom
 
-![Screenshot](atom-vlc-screenshot.png)
+![Screenshot](https://github.com/renatoalencar/atom-vlc/raw/master/atom-vlc-screenshot.png)
 
 ## Installation
 
@@ -38,7 +38,7 @@ a password.
 
 After that go to View ➔ Add interface ➔ Web.
 
-![VLC Preferences](vlc-preferences.png)
+![VLC Preferences](https://github.com/renatoalencar/atom-vlc/raw/master/vlc-preferences.png)
 
 ### Atom VLC
 
