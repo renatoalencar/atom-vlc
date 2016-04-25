@@ -1,7 +1,7 @@
 {
   "name": "atom-vlc",
   "main": "./lib/atom-vlc",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A bottom panel to control VLC media player from Atom",
   "keywords": [
     "vlc",
